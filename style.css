@@ -9,12 +9,18 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .grid {
+  margin: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* grid-template-rows: repeat(3, 100px); */
   grid-template-rows: repeat(3, 1fr);
-  gap: 15px;
+  gap: 15px 30px;
 }
 
 .item {
