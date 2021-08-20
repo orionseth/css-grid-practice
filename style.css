@@ -21,7 +21,7 @@ body {
   /* grid-template-rows: repeat(3, 1fr); */
   grid-template-columns: 150px 1fr auto;
   grid-template-rows: 100px 200px auto;
-  height: 450px;
+  /* height: 450px; */
   gap: 15px 30px;
 }
 
@@ -31,10 +31,14 @@ body {
 
 .item--1 {
   background-color: #959595;
+  /* grid-area: 2 / 1 / 4 / 2; */
+  grid-area: 2 / 1 / span 2 / span 1;
 }
 
 .item--2 {
   background-color: #bbb;
+  /* grid-area: 1 / 1 / 2 / -1; */
+  grid-area: 1 / 1 / span 1 / span 3;
 }
 
 .item--3 {
@@ -44,6 +48,8 @@ body {
 .item--4 {
   background-color: #d8d8d8;
   /* height: 100px; */
+  /* grid-area: 3 / 1 / 4 / -1; */
+  grid-area: 3 / 2 / span 1 / span 2;
 }
 
 .item--5 {
