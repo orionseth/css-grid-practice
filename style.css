@@ -18,9 +18,10 @@ body {
   margin: 40px;
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-columns: 150px 1fr auto;
   /* grid-template-rows: repeat(3, 1fr); */
-  grid-template-rows: 100px 200px 60px;
+  grid-template-columns: 150px 1fr auto;
+  grid-template-rows: 100px 200px auto;
+  height: 450px;
   gap: 15px 30px;
 }
 
