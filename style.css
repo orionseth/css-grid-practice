@@ -17,9 +17,10 @@ body {
 .grid {
   margin: 40px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(3, 100px); */
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 150px 1fr auto;
+  /* grid-template-rows: repeat(3, 1fr); */
+  grid-template-rows: 100px 200px 60px;
   gap: 15px 30px;
 }
 
@@ -41,5 +42,9 @@ body {
 
 .item--4 {
   background-color: #d8d8d8;
-  height: 100px;
+  /* height: 100px; */
+}
+
+.item--5 {
+  background-color: #bbb;
 }
